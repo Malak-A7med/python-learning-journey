@@ -1,4 +1,4 @@
-# python-learning-journey
+# Python-learning-journey
 
 This repository contains a collection of small Python projects created during my personal training and learning journey. While these projects were originally made for practice and self-improvement, anyone is welcome to use or learn from them!
 
