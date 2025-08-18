@@ -1,8 +1,8 @@
 # Python-learning-journey
-
+---
 This repository contains a collection of small Python projects created during my personal training and learning journey. While these projects were originally made for practice and self-improvement, anyone is welcome to use or learn from them!
 
->> The projects cover various topics, including:
+The projects cover various topics, including:
 
     - **Structured Programming:**  
       Projects that focus on organizing code with clear logic and functions.
