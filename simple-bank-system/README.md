@@ -1,7 +1,7 @@
 
 # Simple Bank System
 
-This is a simple Python console application that simulates basic banking operations for a single user.
+This is a simple Python console application that simulates basic banking operations.
 
 ## Features
 
