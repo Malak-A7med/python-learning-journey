@@ -1,39 +1,49 @@
+# 🏦 Simple Bank Management System in Python
 
-# Simple Bank System
-
-This is a simple Python console application that simulates basic banking operations.
+A basic command-line banking application in Python. It allows users to create accounts, deposit and withdraw money, display user data, and check their balance.
 
 ## Features
 
-- **Show User Data**: Displays user details (name, age, gender, balance).
-- **Deposit**: Add money to the account balance.
-- **Withdraw**: Withdraw money from the account if sufficient funds are available.
-- **View Balance**: Check the current balance.
-- **Exit**: Leave the program.
+- **Create Account**: Register a new user with name, age, gender, and initial balance. Each user gets a unique Account ID.
+- **Show User Data**: Display all information of a specific user using their Account ID.
+- **Deposit**: Add money to a user's balance.
+- **Withdraw**: Remove money from a user's balance (if sufficient funds are available).
+- **View Balance**: Check current balance for any account.
+- **Exit**: End the program with a thank you message.
 
-## How to Use
+## How to Run
 
-1. Run the script in your Python environment.
-2. Follow the menu to select operations by entering a number (1-5).
-3. You can deposit, withdraw, view your balance, and see your user data.
+1. Make sure you have Python 3 installed.
+2. Copy the code to a file called `bank.py`.
+3. Open your terminal and run:
+   ```bash
+   python bank.py
+   ```
+4. Follow the on-screen instructions and enter the number of your chosen option.
 
-## Example
+## Example Usage
 
 ```
-==== Welcome Malak to our Bank ====
-1. Show user data
-2. Deposit
-3. Withdraw
-4. View balance
-5. Exit
+==== Welcome to our Bank ====
+1. Create Account
+2. Show User Data
+3. Deposit
+4. Withdraw
+5. View Balance
+6. Exit
 
-Enter your choice (1-5): 
+Enter your choice (1-6): 
 ```
 
-## Classes
+- When creating an account, you will be prompted for your name, age, gender, and initial deposit.
+- For other operations, you need to enter your Account ID.
 
-- `User`: Holds user information.
-- `Bank`: Inherits from `User`, handles banking operations like deposit,  withdraw, and view balance.
+## Notes
 
+- Account IDs start from 1 and increment for each new user.
+- All user information and balances are stored in memory for the current session only (data will not be saved when you exit).
+- The code is easy to extend and customize for more banking features.
 
-**Enjoy using your simple bank program!**
+---
+
+This project is great for learning about classes, objects, and basic data handling in Python.
